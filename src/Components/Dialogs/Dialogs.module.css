@@ -1,0 +1,25 @@
+.content {
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-areas: "d m";
+    height: 780px;
+    border-top: 1px solid white;
+}
+
+.dialogs {
+    grid-area: d;
+    margin: 20px 0 0 50px;
+    display: block;
+    color: white;
+}
+
+.messages {
+    grid-area: m;
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+.textArea{
+    margin-top: 20px;
+}

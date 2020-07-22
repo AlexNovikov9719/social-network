@@ -1,0 +1,30 @@
+.photo {
+    grid-area: a;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 40px 0 0 60px;
+    display: block;
+}
+
+.descriptionProfile {
+    grid-area: d;
+    color: #ff993a;
+    float: left;
+    margin: 90px 0 0 300px;
+}
+
+.descriptionProfile p {
+    color: white;
+}
+
+.addPhoto {
+    position: absolute;
+    top: 400px;
+    left: 330px;
+}
+
+.status {
+    margin-bottom: 7px;
+}

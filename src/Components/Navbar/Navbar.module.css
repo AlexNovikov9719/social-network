@@ -1,0 +1,29 @@
+.navbar {
+    grid-area: n;
+    background-color: black;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.navbar div {
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.link a:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.link a:active {
+    color: #37ff53;
+    border: 1px solid #37ff53;
+}

@@ -1,0 +1,45 @@
+.header {
+    grid-area: h;
+    background-color: black;
+    padding: 5px 10px;
+    display: block;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: yellow;
+}
+
+.header a:active {
+color: #37ff53;
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.logOut {
+    border-radius: 7px;
+    padding: 2px 10px;
+}
+
+.logOut:hover {
+    background-color: yellow;
+}
+
+.logOut:active {
+    background-color: #37ff53;
+}

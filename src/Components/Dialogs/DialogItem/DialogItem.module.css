@@ -1,0 +1,14 @@
+.dialog a{
+    color: white;
+    text-decoration: none;
+    margin: 40px 0 0 150px;
+}
+
+.dialog a:hover {
+    color: orange;
+    text-decoration: orange;
+}
+
+.dialog a:active {
+    color: #37ff53;
+}
